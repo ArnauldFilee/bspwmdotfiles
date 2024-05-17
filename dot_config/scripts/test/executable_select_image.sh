@@ -1,0 +1,1 @@
+ls ~/Pictures/Wallpapers | while read A ; do  echo -en "$A\x00icon\x1f~/Pictures/$A\n" ; done | rofi -dmenu
